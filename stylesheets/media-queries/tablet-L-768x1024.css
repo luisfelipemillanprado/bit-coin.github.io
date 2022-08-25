@@ -1,0 +1,232 @@
+header .information-section .information-section__logo-container img {
+  width: 22rem;
+  height: 3.5rem;
+}
+
+header .information-section .information-section__text-conteiner h1 {
+  font-size: 2.85rem;
+}
+
+header .navbar-section a {
+  width: 35rem;
+  height: 5.8rem;
+  top: 1.0rem;
+  left: calc(50% - 17.52rem);
+  font-size: 2.5rem;
+  font-weight: 450;
+  line-height: 2.3rem;
+  padding-top: 1.63rem;
+  border-radius: 0.5rem;
+}
+
+main .interchange-section .interchange-section__container-1 h3 {
+  font-size: 2.86rem;
+}
+
+main .interchange-section .interchange-section__container-1 p {
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+}
+
+main .interchange-section .interchange-section__container-2 div {
+  width: 90%;
+  margin-top: 10.5rem;
+  margin-left: 3.12rem;
+}
+
+main .interchange-section .interchange-section__container-2 h4 {
+  font-size: 2.48rem;
+}
+
+main .interchange-section .interchange-section__container-2 div .direction__right {
+  width: 3.9rem;
+  height: 2.95rem;
+}
+
+main .interchange-section .interchange-section__container-2 div .direction__left {
+  width: 3.8rem;
+  height: 2.8rem;
+}
+
+main .interchange-section .interchange-section__container-2 table {
+  width: 70%;
+  height: 24rem;
+}
+
+main .interchange-section .interchange-section__container-2 table tr {
+  font-size: 2.19rem;
+}
+
+main .interchange-section .interchange-section__container-2 table tr .color-change {
+  font-size: 2.49rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-1 .file-1__column-2 span {
+  width: 2.3rem;
+  height: 2.2rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-2 .file-2__column-2 span {
+  width: 2.3rem;
+  height: 2.2rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-3 .file-3__column-2 span {
+  width: 2.3rem;
+  height: 2.2rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-4 .file-4__column-2 span {
+  width: 2.3rem;
+  height: 2.2rem;
+}
+
+main .interchange-section .interchange-section__container-3 p {
+  font-size: 2.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+main .benefit-section .benefit-section__container-1 h3 {
+  font-size: 2.86rem;
+}
+
+main .benefit-section .benefit-section__container-1 p {
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 div img {
+  width: 3.7rem;
+  height: 3.7rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 div img {
+  width: 3.7rem;
+  height: 3.7rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 div img {
+  width: 3.7rem;
+  height: 3.7rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 div img {
+  width: 3.7rem;
+  height: 3.7rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 h4 {
+  font-size: 2.3rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 h4 {
+  font-size: 2.3rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 h4 {
+  font-size: 2.3rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 h4 {
+  font-size: 2.3rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 p {
+  font-size: 2.14rem;
+  line-height: 2.4rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 p {
+  font-size: 2.14rem;
+  line-height: 2.4rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 p {
+  font-size: 2.14rem;
+  line-height: 2.4rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 p {
+  font-size: 2.14rem;
+  line-height: 2.4rem;
+}
+
+main .hero-section .hero-section__photo-container h3 {
+  font-size: 3rem;
+}
+
+main .plans-section .plans-section__conteiner-1 h3 {
+  font-size: 2.86rem;
+}
+
+main .plans-section .plans-section__conteiner-1 p {
+  width: 85%;
+  font-size: 2.2rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .float-text {
+  width: 66%;
+  left: calc(50% - 6.63rem);
+  font-size: 1.75rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .float-text {
+  width: 66%;
+  left: calc(50% - 6.63rem);
+  font-size: 1.75rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .float-text {
+  width: 66%;
+  left: calc(50% - 6.63rem);
+  font-size: 1.75rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 h4 {
+  width: 65%;
+  font-size: 1.98rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 h4 {
+  width: 65%;
+  font-size: 1.98rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 h4 {
+  width: 65%;
+  font-size: 1.98rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .saveing-text {
+  font-size: 1.68rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .saveing-text {
+  font-size: 1.68rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .saveing-text {
+  font-size: 1.68rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 button {
+  font-size: 2.01rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 button {
+  font-size: 2.01rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 button {
+  font-size: 2.01rem;
+}
+
+footer .section-contacts a {
+  font-size: 1.8rem;
+  letter-spacing: 0.05rem;
+}
+
+footer .section-logo {
+  height: 8.5rem;
+}

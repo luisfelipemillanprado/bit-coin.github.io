@@ -1,0 +1,367 @@
+header .information-section .information-section__logo-container img {
+  width: 21rem;
+  height: 3.2rem;
+}
+
+header .information-section .information-section__text-conteiner h1 {
+  width: 90%;
+  font-size: 2.7rem;
+  line-height: 2.9rem;
+}
+
+header .information-section .information-section__text-conteiner p {
+  width: 87%;
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+header .navbar-section a {
+  width: 30rem;
+  height: 5.2rem;
+  top: 1.45rem;
+  left: calc(50% - 14.91rem);
+  padding-top: 1.52rem;
+  font-size: 2.1rem;
+  font-weight: 525;
+  line-height: 2rem;
+}
+
+header .navbar-section a span {
+  width: 1.9rem;
+  height: 1.25rem;
+}
+
+main .interchange-section .interchange-section__container-1 div img {
+  width: 24.5rem;
+  height: 24.5rem;
+}
+
+main .interchange-section .interchange-section__container-1 h3 {
+  width: 87%;
+  font-size: 2.7rem;
+  font-weight: bold;
+  line-height: 2.9rem;
+}
+
+main .interchange-section .interchange-section__container-1 p {
+  width: 80%;
+  font-size: 1.94rem;
+  font-weight: 500;
+  line-height: 1.85rem;
+}
+
+main .interchange-section .interchange-section__container-2 h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main .interchange-section .interchange-section__container-2 div {
+  margin-top: 10rem;
+}
+
+main .interchange-section .interchange-section__container-2 table {
+  width: 76%;
+  height: 23rem;
+}
+
+main .interchange-section .interchange-section__container-2 table tr {
+  font-size: 1.94rem;
+}
+
+main .interchange-section .interchange-section__container-2 table tr .color-change {
+  font-size: 2.269rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-1 .file-1__column-2 span {
+  width: 2.1rem;
+  height: 2.0rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-2 .file-2__column-2 span {
+  width: 2.1rem;
+  height: 2.0rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-3 .file-3__column-2 span {
+  width: 2.1rem;
+  height: 2.0rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-4 .file-4__column-2 span {
+  width: 2.1rem;
+  height: 2.0rem;
+}
+
+main .interchange-section .interchange-section__container-3 p {
+  font-size: 2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+main .benefit-section .benefit-section__container-1 div {
+  top: -2.55rem;
+}
+
+main .benefit-section .benefit-section__container-1 div img {
+  width: 5.6rem;
+  height: 5.6rem;
+}
+
+main .benefit-section .benefit-section__container-1 h3 {
+  font-size: 2.7rem;
+}
+
+main .benefit-section .benefit-section__container-1 p {
+  font-size: 1.94rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 div img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 div img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 div img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 div img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 h4 {
+  font-size: 2.2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 h4 {
+  font-size: 2.2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 h4 {
+  font-size: 2.2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 h4 {
+  font-size: 2.2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 p {
+  font-size: 1.95rem;
+  font-weight: 100;
+  line-height: 1.98rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 p {
+  font-size: 1.95rem;
+  font-weight: 100;
+  line-height: 1.98rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 p {
+  font-size: 1.95rem;
+  font-weight: 100;
+  line-height: 1.98rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 p {
+  font-size: 1.95rem;
+  font-weight: 100;
+  line-height: 1.98rem;
+}
+
+main .hero-section .hero-section__photo-container h3 {
+  font-size: 2.9rem;
+}
+
+main .plans-section .plans-section__conteiner-1 h3 {
+  width: 85%;
+  font-size: 2.7rem;
+  line-height: 2.9rem;
+}
+
+main .plans-section .plans-section__conteiner-1 p {
+  width: 82.5%;
+  font-size: 1.94rem;
+  font-weight: 500;
+  line-height: 1.98rem;
+}
+
+main .plans-section .plans-section__cards-conteiner {
+  min-height: 28.5rem;
+  padding-top: 1.7rem;
+  padding-bottom: 0.5rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 {
+  min-width: 20.2rem;
+  max-width: 21.5rem;
+  height: 25.8rem;
+  margin-left: 1.22rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .float-text {
+  width: 60%;
+  height: 3.5rem;
+  left: calc(50% - 6.1rem);
+  top: -1.6rem;
+  font-size: 1.55rem;
+  letter-spacing: 0.05rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 h4 {
+  width: 60%;
+  padding-top: 3.4rem;
+  font-size: 1.95rem;
+  line-height: 1.85rem;
+  font-weight: 600;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .price-text {
+  font-size: 5.75rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .price-text span {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  top: -1.2rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .saveing-text {
+  font-size: 1.55rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 button {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 {
+  min-width: 20.2rem;
+  max-width: 21.5rem;
+  height: 25.8rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .float-text {
+  width: 60%;
+  height: 3.5rem;
+  left: calc(50% - 6.1rem);
+  top: -1.6rem;
+  font-size: 1.55rem;
+  letter-spacing: 0.05rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 h4 {
+  width: 60%;
+  padding-top: 3.4rem;
+  font-size: 1.95rem;
+  font-style: normal;
+  line-height: 1.85rem;
+  font-weight: 600;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .price-text {
+  font-size: 5.75rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .price-text span {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  top: -1.2rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .saveing-text {
+  font-size: 1.55rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 button {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 {
+  min-width: 20.2rem;
+  max-width: 21.5rem;
+  height: 25.8rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .float-text {
+  width: 60%;
+  height: 3.5rem;
+  left: calc(50% - 6.1rem);
+  top: -1.6rem;
+  font-size: 1.55rem;
+  letter-spacing: 0.05rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 h4 {
+  width: 60%;
+  padding-top: 3.4rem;
+  font-size: 1.95rem;
+  font-style: normal;
+  line-height: 1.85rem;
+  font-weight: 600;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .price-text {
+  font-size: 5.75rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .price-text span {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  top: -1.2rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .saveing-text {
+  font-size: 1.55rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 button {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-left {
+  width: 20%;
+  height: 25.8rem;
+  margin-top: 0.6rem;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-left a {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-right {
+  width: 20%;
+  height: 25.8rem;
+  margin-top: 0.6rem;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-right a {
+  width: 3.5rem;
+  height: 3.6rem;
+}
+
+footer .section-contacts a {
+  font-size: 1.65rem;
+}
+
+footer .section-logo {
+  height: 7.5rem;
+}

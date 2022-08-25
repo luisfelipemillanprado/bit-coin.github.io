@@ -1,0 +1,58 @@
+header .information-section .information-section__text-conteiner p {
+  width: 95%;
+  font-size: 1.54rem;
+  margin: 0 auto;
+}
+
+main .interchange-section .interchange-section__container-1 p {
+  font-size: 1.54rem;
+}
+
+main .interchange-section .interchange-section__container-3 p {
+  font-size: 1.5rem;
+}
+
+main .interchange-section .interchange-section__container-2 table tr {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+main .benefit-section .benefit-section__container-1 p {
+  font-size: 1.54rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+main .plans-section .plans-section__conteiner-1 p {
+  font-size: 1.54rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .saveing-text {
+  font-size: 1.46rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .saveing-text {
+  font-size: 1.46rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .saveing-text {
+  font-size: 1.46rem;
+}

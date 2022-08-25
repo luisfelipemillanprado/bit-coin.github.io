@@ -1,0 +1,20 @@
+header .navbar-section a {
+  font-size: 1.51rem;
+  line-height: 1.8rem;
+}
+
+main .interchange-section .interchange-section__container-2 table tr .color-change {
+  font-size: 1.6rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .float-text {
+  font-size: 1.25rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .float-text {
+  font-size: 1.25rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .float-text {
+  font-size: 1.25rem;
+}

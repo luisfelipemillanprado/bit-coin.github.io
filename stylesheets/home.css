@@ -1,0 +1,1023 @@
+/*-----Variables-----*/
+:root {
+  --bitcoin-orange: #F7931A;
+  --soft-orange: #FFE9D5;
+  --secondary-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --warm-black: #201E1C;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #ffffff;
+}
+
+/*-----Variables-End-----*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  min-width: 32rem;
+  height: 300px;
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #F7931A 100%);
+}
+
+/*------------------------------------Header---------------------------------------*/
+header .information-section {
+  width: 100%;
+  height: 26rem;
+  text-align: center;
+}
+
+header .navbar-section {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+}
+
+header .information-section .information-section__logo-container {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .information-section .information-section__logo-container img {
+  width: 15.1rem;
+  height: 2.4rem;
+}
+
+header .information-section .information-section__text-conteiner {
+  width: 98%;
+  margin: 0 auto;
+}
+
+header .information-section .information-section__text-conteiner h1 {
+  width: 95%;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 2.6rem;
+  font-size: 2.4rem;
+  color: var(--just-white);
+}
+
+header .information-section .information-section__text-conteiner p {
+  padding-top: 2.45rem;
+  padding-bottom: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  color: var(--soft-orange);
+}
+
+header .navbar-section a {
+  width: 22.9rem;
+  height: 4.5rem;
+  position: absolute;
+  left: calc(50% - 11.35rem);
+  top: 1.5rem;
+  bottom: 0;
+  display: block;
+  background-color: var(--off-white);
+  color: var(--black);
+  padding-top: 1.25rem;
+  padding-left: 1.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.4rem;
+  box-shadow: 0rem 0.6rem 0.8rem rgb(89, 73, 30, 0.16);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+header .navbar-section a span {
+  display: inline-block;
+  background-image: url("../assets/icons/down-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.4rem;
+  height: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+/*------------------------------------Main---------------------------------------*/
+main .interchange-section {
+  background-color: var(--off-white);
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  text-align: center;
+}
+
+main .interchange-section .interchange-section__container-1 div {
+  width: 100%;
+  height: auto;
+  padding-top: 5.5rem;
+  padding-bottom: 3.2rem;
+  text-align: center;
+}
+
+main .interchange-section .interchange-section__container-1 div img {
+  width: 19.5rem;
+  height: 19.5rem;
+}
+
+main .interchange-section .interchange-section__container-1 h3 {
+  width: 90%;
+  height: auto;
+  margin: 0rem auto;
+  padding-bottom: 2.5rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+main .interchange-section .interchange-section__container-1 p {
+  width: 90%;
+  height: auto;
+  margin: 0rem auto;
+  padding-bottom: 4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #757575;
+}
+
+main .interchange-section .interchange-section__container-2 {
+  width: 85%;
+  height: auto;
+  position: relative;
+  margin: 0rem auto;
+}
+
+main .interchange-section .interchange-section__container-2 h4 {
+  text-align: center;
+  margin-bottom: 0.7rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--bitcoin-orange);
+}
+
+main .interchange-section .interchange-section__container-2 div {
+  width: 100%;
+  min-width: auto;
+  position: absolute;
+  margin-top: 6.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .interchange-section .interchange-section__container-2 div .direction__right {
+  background-image: url("../assets/icons/bx-chevron-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 2.9rem;
+  height: 2.95rem;
+}
+
+main .interchange-section .interchange-section__container-2 div .direction__left {
+  background-image: url("../assets/icons/bx-chevron-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+
+main .interchange-section .interchange-section__container-2 table {
+  width: 75%;
+  height: 15rem;
+  margin: 0 auto;
+}
+
+main .interchange-section .interchange-section__container-2 table tr {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+  text-align: left;
+}
+
+main .interchange-section .interchange-section__container-2 table tr td {
+  width: 50%;
+  background-color: var(--just-white);
+}
+
+main .interchange-section .interchange-section__container-2 table tr .color-change {
+  font-weight: normal;
+  font-size: 1.35rem;
+  line-height: 1.5rem;
+  color: #757575;
+  text-align: center;
+}
+
+main .interchange-section .interchange-section__container-2 table tr .padding-change {
+  padding-left: 1rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-1 .file-1__column-1 {
+  border-radius: 0.5rem 0 0 0;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-1 .file-1__column-2 {
+  border-radius: 0 0.5rem 0 0;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-4 .file-4__column-1 {
+  border-radius: 0 0 0 0.5rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-4 .file-4__column-2 {
+  border-radius: 0 0 0.5rem 0;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-1 .file-1__column-2 span {
+  display: inline-block;
+  background-image: url("../assets/icons/trending-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-2 .file-2__column-2 span {
+  display: inline-block;
+  background-image: url("../assets/icons/trending-up.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-3 .file-3__column-2 span {
+  display: inline-block;
+  background-image: url("../assets/icons/trending-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+main .interchange-section .interchange-section__container-2 table .file-4 .file-4__column-2 span {
+  display: inline-block;
+  background-image: url("../assets/icons/trending-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+main .interchange-section .interchange-section__container-3 {
+  width: 100%;
+  height: auto;
+  margin-top: 1.2rem;
+  padding-bottom: 5.5rem;
+}
+
+main .interchange-section .interchange-section__container-3 p {
+  width: 55%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 1.245rem;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5rem;
+  color: #282623;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--soft-orange);
+  border-radius: 0.5rem;
+}
+
+main .benefit-section {
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  background-color: var(--warm-black);
+  padding-bottom: 4rem;
+}
+
+main .benefit-section .benefit-section__container-1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+main .benefit-section .benefit-section__container-1 div {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -1.1rem;
+  text-align: center;
+}
+
+main .benefit-section .benefit-section__container-1 div img {
+  width: 4.1rem;
+  height: 2.5rem;
+}
+
+main .benefit-section .benefit-section__container-1 h3 {
+  width: 90%;
+  height: auto;
+  padding-top: 5.5rem;
+  text-align: center;
+  margin: 0rem auto;
+  color: var(--just-white);
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+}
+
+main .benefit-section .benefit-section__container-1 p {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin: 2.5rem auto;
+  color: #808080;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+/*-----------------------------Benefit-Cards-Container----------------------------*/
+main .benefit-section .benefit-section__cards-container {
+  width: 100%;
+  height: auto;
+}
+
+/*-------Card-1--------*/
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 {
+  width: 90%;
+  height: 15.2rem;
+  margin: 0 auto;
+  background-color: #282623;
+  padding: 1.4rem;
+  border-radius: 0.4rem;
+  box-shadow: 0rem 0.4rem 0.8rem rgb(0, 0, 0, 0.16);
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 div {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.8rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 div img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 h4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.1rem;
+  font-size: 1.62rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 p {
+  width: 100%;
+  height: 5.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+/*-------Card-2--------*/
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 {
+  width: 90%;
+  height: 15.2rem;
+  margin: 1.5rem auto;
+  background-color: #282623;
+  padding: 1.4rem;
+  border-radius: 0.4rem;
+  box-shadow: 0rem 0.4rem 0.8rem rgb(0, 0, 0, 0.16);
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 div {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.8rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 div img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 h4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.1rem;
+  font-size: 1.62rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 p {
+  width: 100%;
+  height: 5.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+/*-------Card-3--------*/
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 {
+  width: 90%;
+  height: 15.2rem;
+  margin: 1.5rem auto;
+  background-color: #282623;
+  padding: 1.4rem;
+  border-radius: 0.4rem;
+  box-shadow: 0rem 0.4rem 0.8rem rgb(0, 0, 0, 0.16);
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 div {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.8rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 div img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 h4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.1rem;
+  font-size: 1.62rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 p {
+  width: 100%;
+  height: 5.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+/*-------Card-4--------*/
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 {
+  width: 90%;
+  height: 15.2rem;
+  margin: 0 auto;
+  background-color: #282623;
+  padding: 1.4rem;
+  border-radius: 0.4rem;
+  box-shadow: 0rem 0.4rem 0.8rem rgb(0, 0, 0, 0.16);
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 div {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.8rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 div img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 h4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 p {
+  width: 100%;
+  height: 5.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+main .hero-section {
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+}
+
+main .hero-section .hero-section__photo-container {
+  width: 100%;
+  height: 38.7rem;
+  min-height: 38.7rem;
+  background-image: url("../assets/pictures/bitcoinbaby.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+main .hero-section .hero-section__photo-container h3 {
+  width: 100%;
+  height: auto;
+  padding-top: 6.8rem;
+  font-size: 2.3rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+main .plans-section {
+  width: 100%;
+  height: 51.8rem;
+  background-color: var(--off-white);
+  text-align: center;
+  padding-top: 4rem;
+}
+
+main .plans-section .plans-section__conteiner-1 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+main .plans-section .plans-section__conteiner-1 h3 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+main .plans-section .plans-section__conteiner-1 p {
+  width: 100%;
+  height: auto;
+  margin: 2.5rem auto;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  color: #757575;
+}
+
+/*------------------------------------Slider---------------------------------------*/
+main .plans-section .plans-section__slider {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*------------------------------------Cards----------------------------------------*/
+main .plans-section .plans-section__cards-conteiner {
+  width: 100%;
+  min-height: 27.5rem;
+  padding-top: 1.7rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  background-color: var(--off-white);
+}
+
+/*-----Card-1-----*/
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 {
+  width: 59.375%;
+  min-width: 19.0rem;
+  max-width: 19.5rem;
+  height: 24.7rem;
+  margin-left: 1.2000000000000002rem;
+  margin-right: 2.2rem;
+  position: relative;
+  background-color: var(--just-white);
+  border-radius: 0.85rem;
+  box-shadow: 0rem 0.42rem 0.9rem rgb(89, 73, 30, 0.16);
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .float-text {
+  width: 53.158%;
+  height: 3.1rem;
+  position: absolute;
+  left: calc(50% - 5.05rem);
+  top: -1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.85rem;
+  background-color: #F7931A;
+  color: var(--just-white);
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 h4 {
+  width: 45%;
+  min-height: 1.8rem;
+  padding-top: 3.2rem;
+  color: #000000;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .price-text {
+  width: 38%;
+  height: auto;
+  position: relative;
+  color: #000000;
+  margin: 2rem auto;
+  font-family: 'Inter';
+  font-size: 5.2rem;
+  font-style: normal;
+  line-height: 3.5rem;
+  letter-spacing: -0.2rem;
+  font-weight: 700;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .price-text span {
+  width: 20%;
+  height: auto;
+  font-size: 1.6rem;
+  letter-spacing: 0.45rem;
+  position: absolute;
+  top: -1rem;
+  left: 0rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .saveing-text {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
+  color: #757575;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 button {
+  width: 80%;
+  height: 4.8rem;
+  margin: 0 auto;
+  background-color: var(--off-white);
+  border: 0.2rem solid var(--bitcoin-orange);
+  border-radius: 0.5rem;
+  color: #000000;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 button span {
+  display: inline-block;
+  background-image: url("../assets/icons/orange-right-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 0.6rem;
+}
+
+/*-----Card-2-----*/
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 {
+  width: 59.375%;
+  min-width: 19.0rem;
+  max-width: 19.5rem;
+  height: 24.7rem;
+  margin-right: 2.5rem;
+  position: relative;
+  background-color: var(--just-white);
+  border-radius: 0.85rem;
+  box-shadow: 0rem 0.42rem 0.9rem rgb(89, 73, 30, 0.16);
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .float-text {
+  width: 53.158%;
+  height: 3.1rem;
+  position: absolute;
+  left: calc(50% - 5.05rem);
+  top: -1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.85rem;
+  background-color: #F7931A;
+  color: var(--just-white);
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 h4 {
+  width: 45%;
+  min-height: 1.8rem;
+  padding-top: 3.2rem;
+  color: #000000;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .price-text {
+  width: 38%;
+  height: auto;
+  position: relative;
+  color: #000000;
+  margin: 2rem auto;
+  font-family: 'Inter';
+  font-size: 5.2rem;
+  font-style: normal;
+  line-height: 3.5rem;
+  letter-spacing: -0.2rem;
+  font-weight: 700;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .price-text span {
+  width: 20%;
+  height: auto;
+  font-size: 1.6rem;
+  letter-spacing: 0.45rem;
+  position: absolute;
+  top: -1rem;
+  left: 0rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .saveing-text {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
+  color: #757575;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 button {
+  width: 80%;
+  height: 4.8rem;
+  margin: 0 auto;
+  background-color: var(--off-white);
+  border: 0.2rem solid var(--bitcoin-orange);
+  border-radius: 0.5rem;
+  color: #000000;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 button span {
+  display: inline-block;
+  background-image: url("../assets/icons/orange-right-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 0.6rem;
+}
+
+/*-----Card-3-----*/
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 {
+  width: 59.375%;
+  min-width: 19.0rem;
+  max-width: 19.5rem;
+  height: 24.7rem;
+  margin-right: 1.2000000000000002rem;
+  position: relative;
+  background-color: var(--just-white);
+  border-radius: 0.85rem;
+  box-shadow: 0rem 0.42rem 0.9rem rgb(89, 73, 30, 0.16);
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .float-text {
+  width: 53.158%;
+  height: 3.1rem;
+  position: absolute;
+  left: calc(50% - 5.05rem);
+  top: -1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.85rem;
+  background-color: #F7931A;
+  color: var(--just-white);
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 h4 {
+  width: 45%;
+  min-height: 1.8rem;
+  padding-top: 3.2rem;
+  color: #000000;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .price-text {
+  width: 38%;
+  height: auto;
+  position: relative;
+  color: #000000;
+  margin: 2rem auto;
+  font-family: 'Inter';
+  font-size: 5.2rem;
+  font-style: normal;
+  line-height: 3.5rem;
+  letter-spacing: -0.2rem;
+  font-weight: 700;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .price-text span {
+  width: 20%;
+  height: auto;
+  font-size: 1.6rem;
+  letter-spacing: 0.45rem;
+  position: absolute;
+  top: -1rem;
+  left: 0rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .saveing-text {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
+  color: #757575;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 button {
+  width: 80%;
+  height: 4.8rem;
+  margin: 0 auto;
+  background-color: var(--off-white);
+  border: 0.2rem solid var(--bitcoin-orange);
+  border-radius: 0.5rem;
+  color: #000000;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 button span {
+  display: inline-block;
+  background-image: url("../assets/icons/orange-right-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 0.6rem;
+}
+
+/*-----Directions-----*/
+main .plans-section .plans-section__slider .plans-section__direction-left {
+  width: 25%;
+  height: 24.7rem;
+  margin-top: 0.5rem;
+  background-color: var(--off-white);
+  opacity: 0.7;
+  border-radius: 0 0.85rem 0.85rem 0;
+  box-shadow: 0rem 0.9rem 0.9rem 0rem rgb(89, 73, 30, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-left a {
+  background-image: url("../assets/icons/bx-chevron-left.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-right {
+  width: 25%;
+  height: 24.7rem;
+  margin-top: 0.5rem;
+  background-color: var(--off-white);
+  opacity: 0.7;
+  border-radius: 0.5rem 0 0 0.5rem;
+  box-shadow: 0rem 0.9rem 0.9rem 0rem rgb(89, 73, 30, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-right a {
+  background-image: url("../assets/icons/bx-chevron-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+/*------------------------------------Footer---------------------------------------*/
+footer {
+  width: 100%;
+  height: 13rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--bitcoin-orange);
+}
+
+footer .section-contacts {
+  width: 50%;
+  min-height: 6rem;
+  text-align: center;
+}
+
+footer .section-contacts a {
+  display: block;
+  color: var(--just-white);
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+footer .section-logo {
+  width: 50%;
+  height: 6.5rem;
+  display: flex;
+  justify-content: center;
+}
