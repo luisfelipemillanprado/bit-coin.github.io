@@ -1,26 +1,43 @@
+header {
+  height: 330px;
+}
+
+header .information-section .information-section__logo-container {
+  height: 11rem;
+}
+
 header .information-section .information-section__logo-container img {
   width: 24rem;
   height: 4.5rem;
 }
 
 header .information-section .information-section__text-conteiner h1 {
-  font-size: 2.99rem;
+  font-size: 3.2rem;
 }
 
 header .information-section .information-section__text-conteiner p {
   width: 81%;
+  padding-top: 3.5rem;
+  padding-bottom: 2.4rem;
   font-size: 2.4rem;
+  line-height: 2.55rem;
 }
 
 header .navbar-section a {
-  width: 37.2rem;
-  left: calc(50% - 18.62rem);
-  font-size: 2.7rem;
-  font-weight: 570;
+  width: 38rem;
+  top: 4rem;
+  left: calc(50% - 19.0rem);
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+main .interchange-section .interchange-section__container-1 div img {
+  width: 26.5rem;
+  height: 26.5rem;
 }
 
 main .interchange-section .interchange-section__container-1 h3 {
-  font-size: 2.99rem;
+  font-size: 3.2rem;
 }
 
 main .interchange-section .interchange-section__container-1 p {
@@ -29,15 +46,36 @@ main .interchange-section .interchange-section__container-1 p {
 }
 
 main .interchange-section .interchange-section__container-2 h4 {
-  font-size: 2.56rem;
+  font-size: 2.6rem;
+}
+
+main .interchange-section .interchange-section__container-2 div {
+  margin-top: 11rem;
+  margin-left: 3.2rem;
+}
+
+main .interchange-section .interchange-section__container-2 div .direction__right {
+  width: 4.1rem;
+  height: 4.2rem;
+}
+
+main .interchange-section .interchange-section__container-2 div .direction__left {
+  width: 3.9rem;
+  height: 3.9rem;
+}
+
+main .interchange-section .interchange-section__container-2 table {
+  width: 75%;
+  height: 26rem;
 }
 
 main .interchange-section .interchange-section__container-2 table tr {
-  font-size: 2.4rem;
+  font-size: 2.65rem;
 }
 
 main .interchange-section .interchange-section__container-2 table tr .color-change {
-  font-size: 2.77rem;
+  font-size: 2.78rem;
+  font-weight: 400;
 }
 
 main .interchange-section .interchange-section__container-2 table .file-1 .file-1__column-2 span {
@@ -61,9 +99,9 @@ main .interchange-section .interchange-section__container-2 table .file-4 .file-
 }
 
 main .interchange-section .interchange-section__container-3 p {
-  font-size: 2.45rem;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
+  font-size: 2.55rem;
+  padding-top: 1.27rem;
+  padding-bottom: 1.27rem;
 }
 
 main .benefit-section .benefit-section__container-1 div {
@@ -76,261 +114,293 @@ main .benefit-section .benefit-section__container-1 div img {
 }
 
 main .benefit-section .benefit-section__container-1 h3 {
-  font-size: 2.99rem;
+  font-size: 3.2rem;
 }
 
 main .benefit-section .benefit-section__container-1 p {
   font-size: 2.4rem;
-  line-height: 2.5rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 {
-  height: 17.2rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 {
-  height: 17.2rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 {
-  height: 17.2rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 {
-  height: 17.2rem;
+  height: 20rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 div {
-  margin-bottom: 1.5rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 div {
-  margin-bottom: 1.5rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 div {
-  margin-bottom: 1.5rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 div {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.15rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 div img {
-  width: 3.95rem;
-  height: 3.95rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 div img {
-  width: 3.95rem;
-  height: 3.95rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 div img {
-  width: 3.95rem;
-  height: 3.95rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 div img {
-  width: 3.95rem;
-  height: 3.95rem;
+  width: 4.1rem;
+  height: 4.1rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 h4 {
-  font-size: 2.36rem;
-  margin-bottom: 1.4rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 h4 {
-  font-size: 2.36rem;
-  margin-bottom: 1.4rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 h4 {
-  font-size: 2.36rem;
-  margin-bottom: 1.4rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 h4 {
-  font-size: 2.36rem;
-  margin-bottom: 1.4rem;
+  font-size: 2.78rem;
+  margin-bottom: 1.8rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 p {
-  font-size: 2.335rem;
-  line-height: 2.4rem;
+  font-size: 2.6rem;
+  line-height: 2.7rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 {
+  height: 20rem;
+  margin: 2rem auto;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 div {
+  margin-bottom: 2.15rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 div img {
+  width: 4.1rem;
+  height: 4.1rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 h4 {
+  font-size: 2.78rem;
+  margin-bottom: 1.8rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 p {
-  font-size: 2.335rem;
-  line-height: 2.4rem;
+  font-size: 2.6rem;
+  line-height: 2.7rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 {
+  height: 20rem;
+  margin: 2rem auto;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 div {
+  margin-bottom: 2.15rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 div img {
+  width: 4.1rem;
+  height: 4.1rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 h4 {
+  font-size: 2.78rem;
+  margin-bottom: 1.8rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 p {
-  font-size: 2.335rem;
-  line-height: 2.4rem;
+  font-size: 2.6rem;
+  line-height: 2.7rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 {
+  height: 20rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 div {
+  margin-bottom: 2.15rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 div img {
+  width: 4.1rem;
+  height: 4.1rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 h4 {
+  font-size: 2.78rem;
+  margin-bottom: 1.8rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 p {
-  font-size: 2.335rem;
-  line-height: 2.4rem;
+  font-size: 2.6rem;
+  line-height: 2.7rem;
 }
 
 main .hero-section .hero-section__photo-container h3 {
-  font-size: 3.8rem;
+  font-size: 4.2rem;
+}
+
+main .plans-section {
+  height: 62.8rem;
 }
 
 main .plans-section .plans-section__conteiner-1 h3 {
-  font-size: 2.99rem;
+  font-size: 3.2rem;
 }
 
 main .plans-section .plans-section__conteiner-1 p {
   font-size: 2.4rem;
-  line-height: 2.4rem;
+  line-height: 2.6rem;
+  padding-bottom: 1.5rem;
 }
 
 main .plans-section .plans-section__cards-conteiner {
-  min-height: 31rem;
-}
-
-main .plans-section .plans-section__slider .plans-section__direction-left {
-  height: 28.2rem;
-  margin-top: 0rem;
-}
-
-main .plans-section .plans-section__slider .plans-section__direction-left a {
-  width: 3.7rem;
-  height: 3.7rem;
-}
-
-main .plans-section .plans-section__slider .plans-section__direction-right {
-  height: 28.2rem;
-  margin-top: 0rem;
-}
-
-main .plans-section .plans-section__slider .plans-section__direction-right a {
-  width: 3.7rem;
-  height: 3.7rem;
+  min-height: 37.95rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 {
-  min-width: 22.2rem;
-  max-width: 23.5rem;
-  height: 27.8rem;
+  min-width: 28rem;
+  max-width: 28.5rem;
+  height: 35rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .float-text {
-  width: 65%;
-  height: 3.6rem;
-  left: calc(50% - 7.2rem);
-  top: -1.7rem;
-  font-size: 1.95rem;
+  width: 69%;
+  height: 4rem;
+  left: calc(50% - 9.65rem);
+  top: -1.65rem;
+  font-size: 2.5rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 h4 {
-  width: 65%;
-  font-size: 2.3rem;
-  font-weight: 650;
+  padding-top: 4.8rem;
+  padding-bottom: 0.4rem;
+  font-size: 2.55rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .price-text {
-  font-size: 6rem;
-  margin: 2.5rem auto;
+  font-size: 6.79rem;
+  margin: 3.7rem auto;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .price-text span {
-  font-size: 2.2rem;
-  top: -1.42rem;
+  font-size: 2.5rem;
+  top: -1.98rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .saveing-text {
-  font-size: 1.85rem;
+  font-size: 2.3rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.01rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 button {
-  font-size: 2rem;
+  height: 6rem;
+  font-size: 2.65rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 button span {
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 {
-  min-width: 22.2rem;
-  max-width: 23.5rem;
-  height: 27.8rem;
+  min-width: 28rem;
+  max-width: 28.5rem;
+  height: 35rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .float-text {
-  width: 65%;
-  height: 3.6rem;
-  left: calc(50% - 7.2rem);
-  top: -1.7rem;
-  font-size: 1.95rem;
+  width: 69%;
+  height: 4rem;
+  left: calc(50% - 9.65rem);
+  top: -1.65rem;
+  font-size: 2.5rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 h4 {
-  width: 65%;
-  font-size: 2.3rem;
-  font-weight: 650;
+  padding-top: 4.8rem;
+  padding-bottom: 0.4rem;
+  font-size: 2.55rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .price-text {
-  font-size: 6rem;
-  margin: 2.5rem auto;
+  font-size: 6.79rem;
+  margin: 3.7rem auto;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .price-text span {
-  font-size: 2.2rem;
-  top: -1.42rem;
+  font-size: 2.5rem;
+  top: -1.98rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .saveing-text {
-  font-size: 1.85rem;
+  font-size: 2.3rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.01rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 button {
-  font-size: 2rem;
+  height: 6rem;
+  font-size: 2.65rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 button span {
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 {
-  min-width: 22.2rem;
-  max-width: 23.5rem;
-  height: 27.8rem;
+  min-width: 28rem;
+  max-width: 28.5rem;
+  height: 35rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .float-text {
-  width: 65%;
-  height: 3.6rem;
-  left: calc(50% - 7.2rem);
-  top: -1.7rem;
-  font-size: 1.95rem;
+  width: 69%;
+  height: 4rem;
+  left: calc(50% - 9.65rem);
+  top: -1.65rem;
+  font-size: 2.5rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 h4 {
-  width: 65%;
-  font-size: 2.3rem;
-  font-weight: 650;
+  padding-top: 4.8rem;
+  padding-bottom: 0.4rem;
+  font-size: 2.55rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .price-text {
-  font-size: 6rem;
-  margin: 2.5rem auto;
+  font-size: 6.79rem;
+  margin: 3.7rem auto;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .price-text span {
-  font-size: 2.2rem;
-  top: -1.42rem;
+  font-size: 2.5rem;
+  top: -1.98rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .saveing-text {
-  font-size: 1.85rem;
+  font-size: 2.3rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.01rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 button {
-  font-size: 2rem;
+  height: 6rem;
+  font-size: 2.65rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 button span {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-left {
+  height: 34.48rem;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-left a {
+  width: 4.5rem;
+  height: 4.9rem;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-right {
+  height: 34.48rem;
+}
+
+main .plans-section .plans-section__slider .plans-section__direction-right a {
+  width: 4.5rem;
+  height: 4.9rem;
+}
+
+footer {
+  height: 19rem;
 }
 
 footer .section-contacts a {
-  font-size: 1.96rem;
+  font-size: 2.3rem;
 }
 
 footer .section-logo {
-  height: 8.7rem;
+  height: 10rem;
 }

@@ -102,15 +102,15 @@ main .plans-section .plans-section__conteiner-1 p {
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .float-text {
-  font-size: 1.4rem;
+  font-size: 1.46rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .float-text {
-  font-size: 1.4rem;
+  font-size: 1.46rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .float-text {
-  font-size: 1.4rem;
+  font-size: 1.46rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 button {
@@ -126,4 +126,12 @@ main .plans-section .plans-section__cards-conteiner .plans-section__cards-contei
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 button {
   font-size: 1.7rem;
   font-weight: 500;
+}
+
+footer .section-contacts a {
+  font-size: 1.6rem;
+}
+
+footer .section-logo {
+  height: 7.4rem;
 }

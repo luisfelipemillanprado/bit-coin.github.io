@@ -973,7 +973,7 @@ main .plans-section .plans-section__slider .plans-section__direction-right {
   margin-top: 0.5rem;
   background-color: var(--off-white);
   opacity: 0.7;
-  border-radius: 0.5rem 0 0 0.5rem;
+  border-radius: 0.85rem 0 0 0.85rem;
   box-shadow: 0rem 0.9rem 0.9rem 0rem rgb(89, 73, 30, 0.16);
   display: flex;
   align-items: center;

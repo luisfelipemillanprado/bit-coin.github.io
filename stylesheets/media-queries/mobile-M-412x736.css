@@ -66,19 +66,19 @@ main .benefit-section .benefit-section__cards-container .benefit-section__card-c
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 h4 {
-  font-size: 1.7rem;
+  font-size: 1.74rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 h4 {
-  font-size: 1.7rem;
+  font-size: 1.74rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 h4 {
-  font-size: 1.7rem;
+  font-size: 1.74rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 h4 {
-  font-size: 1.7rem;
+  font-size: 1.74rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 p {
@@ -98,19 +98,27 @@ main .benefit-section .benefit-section__cards-container .benefit-section__card-c
   line-height: 1.98rem;
 }
 
-main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .saveing-text {
-  font-size: 1.42rem;
-}
-
-main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .saveing-text {
-  font-size: 1.42rem;
-}
-
-main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .saveing-text {
-  font-size: 1.42rem;
-}
-
 main .plans-section .plans-section__conteiner-1 p {
   width: 93%;
   font-size: 1.7rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .saveing-text {
+  font-size: 1.32rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 .saveing-text {
+  font-size: 1.32rem;
+}
+
+main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 .saveing-text {
+  font-size: 1.32rem;
+}
+
+footer .section-contacts a {
+  font-size: 1.6rem;
+}
+
+footer .section-logo {
+  height: 7rem;
 }
