@@ -1,48 +1,81 @@
+header .information-section .information-section__logo-container img {
+  width: 15.6rem;
+  height: 2.9rem;
+}
+
+header .information-section .information-section__text-conteiner h1 {
+  width: 94%;
+  font-size: 2.53rem;
+}
+
 header .information-section .information-section__text-conteiner p {
   width: 95%;
-  font-size: 1.7rem;
+  font-size: 1.74rem;
   line-height: 2rem;
-  margin: 0 auto;
+  letter-spacing: 0.05rem;
 }
 
 header .navbar-section a {
-  width: 25rem;
-  font-size: 1.712rem;
-  line-height: 1.8rem;
+  width: 27rem;
+  height: 3.57rem;
+  font-size: 2rem;
+  line-height: 1.7rem;
   font-weight: 500;
-  left: calc(50% - 12.5rem);
+  left: calc(50% - 13.58rem);
+  padding-top: 0.8rem;
+}
+
+header .navbar-section a span {
+  width: 1.6rem;
+  height: 1rem;
+}
+
+main .interchange-section .interchange-section__container-1 h3 {
+  width: 90%;
+  font-size: 2.53rem;
+  line-height: 2.6rem;
 }
 
 main .interchange-section .interchange-section__container-1 p {
-  width: 93%;
-  font-size: 1.7rem;
+  width: 83%;
+  font-size: 1.72rem;
+  line-height: 1.9rem;
 }
 
-main .interchange-section .interchange-section__container-3 p {
-  font-size: 1.5rem;
+main .interchange-section .interchange-section__container-2 h4 {
+  font-size: 1.76rem;
 }
 
 main .interchange-section .interchange-section__container-2 div {
-  margin-top: 7.2rem;
+  margin-top: 7.7rem;
 }
 
 main .interchange-section .interchange-section__container-2 table {
   width: 80.5%;
-  height: 17.5rem;
-  margin: 0 auto;
+  height: 18.5rem;
 }
 
 main .interchange-section .interchange-section__container-2 table tr {
-  font-size: 1.69rem;
+  font-size: 1.72rem;
 }
 
 main .interchange-section .interchange-section__container-2 table tr .color-change {
-  font-size: 1.71rem;
+  font-size: 1.72rem;
   font-weight: 300;
 }
 
+main .interchange-section .interchange-section__container-3 p {
+  font-size: 1.6rem;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
+main .benefit-section .benefit-section__container-1 h3 {
+  font-size: 2.53rem;
+}
+
 main .benefit-section .benefit-section__container-1 p {
-  font-size: 1.7rem;
+  font-size: 1.72rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 div img {
@@ -50,9 +83,25 @@ main .benefit-section .benefit-section__cards-container .benefit-section__card-c
   height: 2.8rem;
 }
 
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 h4 {
+  font-size: 2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 p {
+  font-size: 1.72rem;
+}
+
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 div img {
   width: 2.9rem;
   height: 2.8rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 h4 {
+  font-size: 2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 p {
+  font-size: 1.72rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 div img {
@@ -60,47 +109,38 @@ main .benefit-section .benefit-section__cards-container .benefit-section__card-c
   height: 2.8rem;
 }
 
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 h4 {
+  font-size: 2rem;
+}
+
+main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 p {
+  font-size: 1.72rem;
+}
+
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 div img {
   width: 2.9rem;
   height: 2.8rem;
 }
 
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 h4 {
-  font-size: 1.74rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 h4 {
-  font-size: 1.74rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 h4 {
-  font-size: 1.74rem;
-}
-
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 h4 {
-  font-size: 1.74rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-1 p {
-  font-weight: 100;
-  line-height: 1.98rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 p {
-  line-height: 1.98rem;
-}
-
-main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 p {
-  line-height: 1.98rem;
+  font-size: 2rem;
 }
 
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 p {
-  line-height: 1.98rem;
+  font-size: 1.72rem;
+}
+
+main .hero-section .hero-section__photo-container h3 {
+  font-size: 2.9rem;
+}
+
+main .plans-section .plans-section__conteiner-1 h3 {
+  font-size: 2.53rem;
 }
 
 main .plans-section .plans-section__conteiner-1 p {
   width: 93%;
-  font-size: 1.7rem;
+  font-size: 1.72rem;
 }
 
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 .saveing-text {

@@ -145,7 +145,6 @@ main .benefit-section .benefit-section__container-1 p {
   font-size: 2.76rem;
 }
 
-/***********************************************************************/
 main .benefit-section .benefit-section__cards-container {
   margin-top: 4rem;
 }
@@ -173,8 +172,6 @@ main .benefit-section .benefit-section__cards-container .benefit-section__card-c
   line-height: 3.1rem;
 }
 
-/**********************************************************************/
-
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-2 {
   height: 22.1rem;
   margin: 2.8rem auto;
@@ -199,7 +196,6 @@ main .benefit-section .benefit-section__cards-container .benefit-section__card-c
   line-height: 3.1rem;
 }
 
-/*********************************************************************/
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-3 {
   height: 22.1rem;
   margin: 2.8rem auto;
@@ -224,7 +220,6 @@ main .benefit-section .benefit-section__cards-container .benefit-section__card-c
   line-height: 3.1rem;
 }
 
-/*********************************************************************/
 main .benefit-section .benefit-section__cards-container .benefit-section__card-container-4 {
   height: 22.1rem;
 }
@@ -248,12 +243,10 @@ main .benefit-section .benefit-section__cards-container .benefit-section__card-c
   line-height: 3.1rem;
 }
 
-/*********************************************************************/
 main .hero-section .hero-section__photo-container h3 {
   font-size: 4.7rem;
 }
 
-/*********************************************************************/
 main .plans-section .plans-section__conteiner-1 h3 {
   width: 90%;
   font-size: 3.8rem;
@@ -268,14 +261,12 @@ main .plans-section {
   height: 68rem;
 }
 
-/***************************************************************/
 main .plans-section .plans-section__cards-conteiner {
   min-height: 43.2rem;
   padding-top: 2.5rem;
   padding-bottom: 0.5rem;
 }
 
-/**************************************************************/
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-1 {
   min-width: 31rem;
   max-width: 21.5rem;
@@ -324,7 +315,6 @@ main .plans-section .plans-section__cards-conteiner .plans-section__cards-contei
   height: 4.4rem;
 }
 
-/***************************************************************************/
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-2 {
   min-width: 31rem;
   max-width: 21.5rem;
@@ -373,7 +363,6 @@ main .plans-section .plans-section__cards-conteiner .plans-section__cards-contei
   height: 4.4rem;
 }
 
-/********************************************************************************/
 main .plans-section .plans-section__cards-conteiner .plans-section__cards-conteiner-3 {
   min-width: 31rem;
   max-width: 21.5rem;
@@ -422,7 +411,6 @@ main .plans-section .plans-section__cards-conteiner .plans-section__cards-contei
   height: 4.4rem;
 }
 
-/************************************************************************/
 main .plans-section .plans-section__slider .plans-section__direction-left {
   height: 39.1rem;
 }
@@ -441,7 +429,6 @@ main .plans-section .plans-section__slider .plans-section__direction-right a {
   height: 5.8rem;
 }
 
-/************************************************************************/
 footer {
   height: 19rem;
 }
